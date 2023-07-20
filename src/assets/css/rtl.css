@@ -1,0 +1,101 @@
+body {
+    background-color: #F8F8F8;
+}
+
+/* header */
+
+/* nav */
+.main-navigation #primary-menu.main-menu {
+    display: flex;
+}
+
+.main-navigation #primary-menu.main-menu .sub-menu {
+    left: 0;
+}
+
+.book-your-course {
+    margin-right: 0;
+    margin-left: 36px;
+}
+.language-selector {
+    margin-left: 20px;
+}
+.main-menu li:last-of-type {
+    margin-right: 51px !important;
+}
+/* nav end */
+/* eader end */
+
+/* homepage */
+/* hero */
+.hero-header .inner {
+    align-items: flex-start;
+}
+
+.hero-header .cerf-scale {
+    margin-right: 3rem;
+}
+
+.hero-header .acreditation {
+    margin-right: 0;
+}
+/* hero end */
+/* age-level */
+
+@media only screen and (min-width: 768px) {
+    .age-level .parents-students {
+        margin-left: auto;
+        margin-right: 1.5rem;
+    }
+}
+
+/* age-level end */
+/* orange banner */
+
+@media only screen and (min-width: 768px) {
+    .orange-banner img {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 2.436rem;
+        border-bottom-right-radius: 2.436rem;
+    }
+}
+
+/* orange banner end */
+/* blue banner */
+@media only screen and (min-width: 768px) {
+    .blue-banner img {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 2.436rem;
+        border-bottom-right-radius: 2.436rem;
+    }
+}
+/* blue banner end */
+
+/* homepage end */
+
+/* our method */
+/* hero */
+@media only screen and (min-width: 768px) {
+    .our-method-hero .sneak-peak {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 1.35rem;
+        border-bottom-left-radius: 1.35rem;
+        margin-right: 0;
+        margin-left: 5rem;
+    }
+}
+
+/* courses */
+.level-description p {
+    text-align: right !important;
+}
+.course-table-content p {
+    direction: ltr;
+}
+.course-title p {
+    direction: ltr;
+}
+/* courses end */

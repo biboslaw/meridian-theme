@@ -1,0 +1,160 @@
+/* the slides */
+#teacher-slider .slick-slide {
+  margin: 0 38px;
+}
+
+/* the parent */
+#teacher-slider .slick-list {
+    margin: 0 -38px;
+    overflow: visible;
+    overflow-x: clip;
+}
+
+
+
+.teacher-arrow-left {
+    left: -28px;
+    top: 35%;
+    transform: translate(-35%, 0);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.teacher-arrow-left:hover path {
+  stroke: rgb(251 176 59);
+}
+
+.teacher-arrow-right {
+    right: -45px;
+    top: 35%;
+    transform: translate(-35%, 0);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.teacher-arrow-right:hover path {
+  stroke: rgb(251 176 59);
+}
+
+.review-arrow-left, .review-arrow-right {
+  z-index: 2;
+  top: 50%;
+  transform: translate(-50%, 0);
+  cursor: pointer;
+}
+
+.review-arrow-left:hover path, .review-arrow-right:hover path {
+  stroke: rgb(251 176 59);
+}
+
+.review-arrow-left {
+  left: -25px;
+}
+
+.review-arrow-right {
+  right: -40px;
+}
+
+#reviews-slider .slick-list {
+  padding-bottom: 35px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  #reviews-slider .slick-list {
+    /* padding-bottom: 9%; */
+  }
+  #reviews-slider .slick-slide {
+    margin: 0 27px;
+  }
+  
+  #reviews-slider .slick-list {
+      margin: 0 -27px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* #reviews-slider .slick-slide {
+    margin: 0;
+  }
+
+  #reviews-slider .slick-list {
+      margin: 0;
+  } */
+
+  #reviews-slider .slick-list {
+    padding-bottom: 75px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .teacher-arrow-right {
+    right: -10px;
+  }
+  .teacher-arrow-left {
+    left: 5px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #reviews-slider .slick-dots li {
+    width: 17px;
+    height: 17px;
+  }
+}
+
+#press-slider .slick-dots {
+  /* bottom: 50px; */
+}
+
+#acreditation-slider .slick-dots li button:before,
+#acreditation-slider .slick-dots li.slick-active button:before,
+#reviews-slider .slick-dots li button:before,
+#reviews-slider .slick-dots li.slick-active button:before,
+#press-slider .slick-dots li button:before,
+#press-slider .slick-dots li.slick-active button:before,
+#teacher-slider .slick-dots li button:before,
+#teacher-slider .slick-dots li.slick-active button:before,
+#acreditation .slick-dots li button:before,
+#acreditation .slick-dots li.slick-active button:before {
+  color: transparent;
+  opacity: 1;
+}
+
+#acreditation-slider .slick-dots li button:before,
+#reviews-slider .slick-dots li button:before,
+#press-slider .slick-dots li button:before,
+#teacher-slider .slick-dots li button:before,
+#acreditation .slick-dots li button:before {
+  background-color: transparent;
+  border: 2px solid #41B6E6;
+  border-radius: 50%;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin-top: 20px;
+
+}
+
+#acreditation-slider .slick-dots li.slick-active button:before,
+#teacher-slider .slick-dots li.slick-active button:before,
+#reviews-slider .slick-dots li.slick-active button:before,
+#press-slider .slick-dots li.slick-active button:before,
+#acreditation .slick-dots li.slick-active button:before {
+  background-color: #41B6E6;
+}
+
+#press-slider .slick-list {
+  border-top-left-radius: 1.35rem;
+  border-bottom-left-radius: 1.35rem;
+}
+
+#acreditation .slick-list {
+  border-top-right-radius: 1.35rem;
+  border-bottom-right-radius: 1.35rem;
+}
+
+/* #acreditation-slider .slick-dots {
+  bottom: 0;
+} */

@@ -1,0 +1,32 @@
+{
+  "name": "meridian",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sebastian Pieprzyk <pieprzyk.sebastian@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "yarn run build --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.5",
+    "browser-sync": "^2.27.9",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "css-loader": "^6.7.1",
+    "dotenv": "^16.0.0",
+    "dotenv-webpack": "^7.1.0",
+    "postcss": "^8.4.12",
+    "postcss-import": "^14.1.0",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.3",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.24",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "swiper": "^8.2.2",
+    "yarn": "^1.22.19"
+  }
+}

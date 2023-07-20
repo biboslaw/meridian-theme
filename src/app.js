@@ -1,0 +1,9 @@
+import './input.css'; 
+import './assets/js/slider.js'; 
+import './assets/js/app.js'; 
+import './assets/js/menu.js'; 
+import './assets/js/faq.js'; 
+import './assets/js/iframe.js'; 
+import './assets/js/modal.js'; 
+import './styles/_slider.css';
+import './styles/_comments.css';

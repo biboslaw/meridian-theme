@@ -1,0 +1,53 @@
+/*!
+Theme Name: meridian
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: meridian
+Domain Path: /languages
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@font-face {
+    font-family: Cassanet;
+    src: url("./src/assets/fonts/Cassannet_Plus_Regular.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Cassanet;
+    src: url("./src/assets/fonts/Cassannet_Plus_Light.otf");
+    font-weight: light;
+}
+
+@font-face {
+    font-family: Cassanet;
+    src: url("./src/assets/fonts/Cassannet_Plus_Bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Cassanet;
+    src: url("./src/assets/fonts/Cassannet_Plus_Black.otf");
+    font-weight: black;
+}
+
+body {
+	background-color: #F8F8F8;
+	font-family: Lato, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@media(max-width: 990px) {
+    .zsiq_cnt {
+        display: none !important;
+    }
+}

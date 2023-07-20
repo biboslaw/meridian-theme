@@ -1,0 +1,54 @@
+.comment-respond {
+    background-color: rgba(65, 182, 230, 0.15);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #707070;
+    font-size: 16px;
+}
+
+    .comment-respond .comment-reply-title {
+        font-size: 30px;
+        letter-spacing: 0px;
+        color: #41B6E6;
+        text-transform: uppercase;
+    }
+
+    .comment-respond .submit {
+        background-color: #41B6E6;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border-radius: 15px;
+        border-width: 0px;
+        text-transform: none;
+        font-size: 16px;
+    }
+
+        .comment-respond  .submit:hover {
+            text-decoration: none;
+            background-color: #FBB03B;
+            transition: 1s ease background-color;
+        }
+
+
+.comments-container {
+    background-color: rgba(65, 182, 230, 0.15);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #707070;
+    font-size: 16px;
+}
+    .comments-container h3 {
+        font-size: 22px;
+        letter-spacing: 0px;
+        color: #41B6E6;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    /*#endregion*/
+
+
+
+/*#endregion*/
